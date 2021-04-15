@@ -1,0 +1,206 @@
+
+body {
+	background-color: #ffd90d
+}
+
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.flavorTag {
+  margin: 4px;
+  font-family: Keedy Sans OT;
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+img{
+width: 200px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Keedy Sans OT;
+}
+
+h2 {
+	font-family: Keedy Sans OT;
+	font-size: 30px;
+	text-align: center; 
+	color: red;
+}
+
+h3 {
+	font-family: Keedy Sans OT;
+	font-size: 65px;
+	color: red;
+	margin-left: 30px;
+}
+
+
+a { 
+  text-decoration: none;
+  color: black; }
+
+
+.filter {
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+}
+
+ button {
+  border: none;
+  color: white;
+  width: 500px;
+  padding: 30px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: Keedy Sans OT;
+  max-width: 50vh;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#button-container {
+position: absolute;
+top:263px;
+left: 900px;
+
+}
+
+#spicy {
+	
+	 background-color: red;
+}
+#sweet {
+	 background-color: #dd7798;
+}
+#tangy {
+	 background-color: #ff8c00;
+}
+#wavy {
+	 background-color: #33ccff;
+}
+
+#cheese {
+	 background-color: #ffff0d;
+}
+
+#creamy {
+	 background-color: #FFC0CB;
+}
+
+#truffle {
+	 background-color: #FFDAB9;
+}
+
+#herb {
+	 background-color: #32CD32;
+}
+
+#sour {
+	 background-color: #FF69B4
+}
+
+#salt {
+	 background-color: #87CEFA
+}
+
+#barbeque {
+	 background-color: #932626
+}
+
+#home {
+	background-color: #952bd9
+}
+
+.overlay {
+	opacity: 0;
+	transition: opacity 0.5s;
+	color: purple;
+}
+
+.overlay:hover {
+	opacity:1;
+	color: purple;
+}
+
+.imglogo { 
+width: 200px; 
+
+ }
+
+ .logo {
+ display: flex;
+ justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+.china {
+	position: relative;
+	width: 180px;
+	top: -400px;
+	left: 1050px;
+}
+
+ .canada {
+ width: 160px;
+ position: absolute;
+ top:90px;
+ left: 180px;
+ }
+
+  .india {
+ width: 130px;
+ position: absolute;
+ top:130px;
+ left: 730px;
+ }
+
+ .unitedstates {
+ width: 260px;
+ position: absolute;
+ top:360px;
+ left:160px;
+ }
+
+ .vietnam {
+width: 100px;
+position: absolute;
+top:450px;
+left: 750px;
+}
+
+.thailand {
+width: 100px;
+position: absolute;
+top:580px;
+left: 510px;
+}
+
+.indonesia {
+width: 130px;
+position: absolute;
+top:200px;
+left: 960px;
+}
+
+.greece {
+width: 100px;
+position: absolute;
+top:180px;
+left: 470px;
+}
+
